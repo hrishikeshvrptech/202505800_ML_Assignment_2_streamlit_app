@@ -56,5 +56,5 @@ def load_credit_card_default():
         stratify=y
     )
 
-    return X_train, X_test, y_train, y_test
+    return X_train, X_test, y_train, y_test, scaler
 
