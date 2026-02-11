@@ -116,7 +116,7 @@ def main():
             model = MODEL_REGISTRY[selected_model_name]()
             model.fit(X_train, y_train)
 
-            X_test = scaler.transform(X_test)
+            X_test = scaler.transform(X_test.values)
 
             # Evaluate
             results, y_pred = evaluate_model(model, X_test, y_test)
