@@ -145,7 +145,7 @@ if __name__ == "__main__":
         """
         <hr>
         <div style="text-align: center; color: grey; font-size: 14px;">
-            Created by <b>Sujeet Kumar Yadav</b> | BITS ID: 2025AA05326
+            Created by <b>Hrishikesh Achyut Deshmukh</b> | BITS ID: 2025AA05800
         </div>
         """,
         unsafe_allow_html=True
