@@ -112,7 +112,7 @@ def main():
             y_test = test_df["target"]
 
             # Train Model
-            X_train, _, y_train, _ = load_credit_card_default()
+            X_train, _, y_train, _, scaler = load_credit_card_default()
             model = MODEL_REGISTRY[selected_model_name]()
             model.fit(X_train, y_train)
 
