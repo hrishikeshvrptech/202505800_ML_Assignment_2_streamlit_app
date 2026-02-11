@@ -41,6 +41,7 @@ def load_credit_card_default():
 
     # Split features and target
     X = df.drop("target", axis=1)
+    feature_columns = X.columns
     y = df["target"]
 
     # Scale features (required for LR, KNN, NB)
@@ -56,5 +57,5 @@ def load_credit_card_default():
         stratify=y
     )
 
-    return X_train, X_test, y_train, y_test, scaler
+    return X_train, X_test, y_train, y_test, scaler, feature_columns
 
