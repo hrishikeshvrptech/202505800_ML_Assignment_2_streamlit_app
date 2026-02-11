@@ -116,31 +116,31 @@ Since the test dataset preserves the same feature space and preprocessing pipeli
 |                     | detection of the positive (default) class. The model  |
 |                     | struggles with class imbalance and underfits complex  |
 |                     | patterns.                                             |
--------------------------------------------------------------------------------
+|                     |                                                       |
 | Decision Tree       | Delivered excellent overall performance with very     |
 |                     | high accuracy (0.98), AUC (0.9615), recall (0.9231),  |
 |                     | F1-score (0.96), and MCC (0.9480). Demonstrates       |
 |                     | strong capability in capturing  nonlinear decision    | 
 |                     | boundaries.                                           |
--------------------------------------------------------------------------------
+|                     |                                                       |
 | kNN                 | Showed moderate performance with good accuracy (0.82) |
 |                     | but relatively low recall (0.3846). The model detects |
 |                     | some positive cases but lacks strong discriminative   |
 |                     | power compared to tree-based models.                  |
--------------------------------------------------------------------------------
+|                     |                                                       |
 | Naive Bayes         | Produced balanced but moderate metrics                |
 |                     | (Accuracy: 0.77, F1: 0.5106). Assumption of feature   |
 |                     | independence may limit performance on correlated      |
 |                     | financial attributes.                                 |
--------------------------------------------------------------------------------
+|                     |                                                       | 
 | Random Forest       |  Achieved very strong performance across all metrics  | 
 |(Ensemble)           |  (Accuracy: 0.97, AUC: 0.9875, MCC: 0.9220). Shows    |
 |                     |  high robustness and generalization due to ensemble   |
 |                     |  averaging.                                           |
--------------------------------------------------------------------------------
+|                     |                                                       |
 | XGBoost (Ensemble)  | Demonstrated high AUC (0.9137) and good overall       |
 |                     | performance but lower recall (0.3846) compared to     |
 |                     | Random Forest and Decision Tree, indicating room for  |
 |                     | hyperparameter tuning.                                |
--------------------------------------------------------------------------------
+
 
