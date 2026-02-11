@@ -14,12 +14,12 @@ from sklearn.metrics import (
     confusion_matrix, classification_report
 )
 
-from dataset_loader import load_dataset
-from logistic_regression import get_model as lr_model
+from dataset_loader import load_credit_card_default
+from Logistic_regression import get_model as lr_model
 from decision_tree import get_model as dt_model
 from knn import get_model as knn_model
 from naive_bayes import get_model as nb_model
-from random_forest import get_model as rf_model
+from random_forest_classifier import get_model as rf_model
 from xgboost_model import get_model as xgb_model
 
 
